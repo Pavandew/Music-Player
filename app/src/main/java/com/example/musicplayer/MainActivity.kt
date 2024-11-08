@@ -19,6 +19,8 @@ import retrofit2.create
 class MainActivity : AppCompatActivity() {
     lateinit var myRecyclerView: RecyclerView
     lateinit var myAdapter: MyAdapter
+
+    lateinit var  song: List<String>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
